@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- metadata -->
+    <meta charset="utf-8">
+    <meta name="description" content="Salary with JS">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Logan Rodriguez">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<title>Your Salary with JS</title>
+<!-- style -->
+      <link rel="stylesheet" href="./css/style.css">
+    <title>Your Address with JS</title>
+  </head>
+  <body>
+    <h1>Determine your earnings with JS</h1>
+    <p>Enter the number of hours that you worked, and your hourly earnings to determine how much money you should be making. This will give you the answers for total amount, as well as the amount that you are losing to taxes.</p>
+        <!-- script -->   
+    <script src="./js/script.js"></script>
+       <!-- text fields -->
+    <!-- area -->
+        <p>
+      <form action="javascript: calculate()">
+        <label for="hours-worked">Hours worked</label>
+        <input type="number" id="hours" placeholder="Hours Worked"><br><br>
+        <label for="rate">Hourly Rate</label>
+        <input type="number" id="hourly-rate" placeholder="Hourly Rate"><br><br>
+        <input type="submit" value="Calculate">
+      </form>
+        <!-- The information is displayed here -->
+        <div id="information"></div>
+    </p>
+  </body>
+</html>
